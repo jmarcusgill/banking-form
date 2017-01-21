@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form</title>
+</head>
+<body>
+
+<div class=username_info>
+  <form action="login" method="post">
+
+    <input type="text" name="username_first" placeholder="Enter your first name">
+    <input type="text" name="username_middle" placeholder="Enter your middle initial">
+    <input type="text" name="username_last" placeholder="Enter your last name">
+    <input type="text" name="username_address" placeholder="Enter your address">
+    <input type="text" name="username_occupation" placeholder="Enter your occupation">
+    <input type="text" name="username_employer" placeholder="Where do you work for?">
+    <input type="text" name="username_employer" placeholder="Where do you work?">
+
+  </form>
+</div>
+
+<div class="loan_info">
+  <select name="loanType">
+    <option value="Commercial">Commercial</option>
+    <option value="Real_Eastate">Real Estate</option>
+    <option value="Personal">Personal</option>
+    <option value="Mortgage">Mortgage</option>
+  </select>
+
+    <input type="radio" name="years" value="5years"> 5 years
+    <input type="radio" name="years" value="15years"> 15 years
+    <input type="radio" name="years" value="30years"> 30 years
+
+
+
+    <input type="checkbox" name="condition" value="wife"> I have a wife
+    <input type="checkbox" name="condition" value="out_of_state"> I live out of state
+    <input type="checkbox" name="condition" value="married">Married
+    <input type="checkbox" name="condition" value="co_signed">Loan will be cosigned
+</div>
+
+<div class="comment">
+  <textarea name="username_comment" placeholder="additional comments"></textarea>
+</div>
+
+<div class="username_contact">
+  <input type="email" name="email" placeholder="Enter your email">
+  <input type="tel" name="telephone" placeholder="How can we reach you?">
+  <input type="url" name="linkedIn" placeholder="LinkedIn URL">
+</div>
+
+</body>
+</html>
